@@ -1,0 +1,36 @@
+{
+"bridge": {
+
+"name": "Homebridge",
+
+"username": "CC:22:3D:E3:CE:30",
+
+"port": 51826,
+
+"pin": "031-45-154"
+
+},
+
+"platforms": [
+
+],
+
+"accessories": [
+
+{
+
+"accessory": "Http",
+
+"name": "Living Room Lamp",
+
+"on_url": "http://NODEMCUIP:80/LED=ON",
+
+"off_url": "http://NODEMCUIP:80/LED=OFF",
+
+"http_method": "GET"
+
+}
+
+]
+
+}
