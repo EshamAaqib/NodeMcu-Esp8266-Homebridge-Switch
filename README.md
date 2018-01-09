@@ -6,14 +6,14 @@ This is by no means a complete solution or ready for long term use but it demons
 
 Whats needed:
 
-NODEMCU ( ESP8266 Module )
-Raspberry Pi or some other server
-Solid State Relay or Normal relay with control circuit
-Bread board - optional
-Project Box
-Some Time
-iOS device
-Extension Lead to carve up
+NODEMCU ( ESP8266 Module ) ,
+Raspberry Pi or some other server ,
+Solid State Relay or Normal relay with control circuit , 
+Bread board - optional ,
+Project Box ,
+Some Time , 
+iOS device ,
+Extension Lead to carve up ,
 
 Step 1: Setup the Server
 
