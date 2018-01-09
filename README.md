@@ -30,7 +30,7 @@ Step 2: Config and Plugins
 Open your config.json file which should be in ~/.homebridge/config.json using your favourite text editor and add the following
 
 {
-"bridge": {
+  "bridge": {
 
 "name": "Homebridge",
 
