@@ -55,9 +55,9 @@ Open your config.json file which should be in ~/.homebridge/config.json using yo
 
 "name": "Living Room Lamp",
 
-"on_url": "http://yourip:80/LED=ON",
+"on_url": "http://NODEMCU_IP:80/LED=ON",
 
-"off_url": "http://yourip:80/LED=OFF",
+"off_url": "http://NODEMCU_IP:80/LED=OFF",
 
 "http_method": "GET"
 
@@ -69,9 +69,9 @@ Open your config.json file which should be in ~/.homebridge/config.json using yo
 
 You will also need to install the homebride-http plugin. The HomeBridge software will make HTTP GET requests to the NODEMCU which will then turn the Solid State Relay on or off. The call looks like this:
 
-http://yourip:80/LED=ON
+http://NODEMCU_IP:80/LED=ON
 
-http://yourip:80/LED=OFF
+http://NODEMCU_IP:80/LED=OFF
 
 To install the plugin type:
 
