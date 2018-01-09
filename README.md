@@ -81,8 +81,8 @@ Step 3: Setup the Solid State Relay and the NODEMCU
  1. Upload the code to the NODEMCU 
  
  2. Connect circuit as ：  
-            NODEMCU GND --> Module pin -
-            NODEMCU 3v3 --> Module pin +  
+            NODEMCU GND --> Module pin - ,
+            NODEMCU 3v3 --> Module pin +  ,
             NODEMCU D4 --> Module pin S 
             
  All usual warnings apply when dealing with 120/ 220 vdc - TAKE CARE.
