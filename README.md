@@ -19,7 +19,7 @@ Step 1: Setup the Server
 
 This project requires the use of a server to run the HomeBridge software. I used a Raspberry Pi as I had it readily available but in theory anything that can run Node.Js should work!
 
-You can follow this guide here to get this up and running on a Raspberry Pi. Other instructables are around to build a Raspberry Pi if you need those!
+You can follow this guide here to get this up and running on a Raspberry Pi. 
 
 https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi
 
