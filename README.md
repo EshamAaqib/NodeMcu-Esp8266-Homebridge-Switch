@@ -86,7 +86,7 @@ Step 3: Setup the Solid State Relay and the NODEMCU
             NODEMCU 3v3 --> Module pin +  ,
             NODEMCU D4 --> Module pin S 
             
- All usual warnings apply when dealing with 120/ 220 vdc - TAKE CARE.
+ All usual warnings apply when dealing with 120v/220v AC - TAKE CARE.
  
 Customise your IP address as needed.
 
