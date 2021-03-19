@@ -4,7 +4,7 @@ This  will give you a quick and easy way to add a NODEMCU to Apple's HomeKit on 
 
 This is by no means a complete solution or ready for long term use but it demonstrates what's possible with a bit more work :)
 
-Whats needed:
+**Whats needed:**
 
 NODEMCU ( ESP8266 Module ) ,
 Raspberry Pi or some other server ,
@@ -15,17 +15,17 @@ Some Time ,
 iOS device ,
 Extension Lead to carve up ,
 
-Step 1: Setup the Server
+**Step 1: Setup the Server**
 
 This project requires the use of a server to run the HomeBridge software. I used a Raspberry Pi as I had it readily available but in theory anything that can run Node.Js should work!
 
 You can follow this guide here to get this up and running on a Raspberry Pi. 
 
-https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi
+**https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi**
 
 Once installed you need install a plugin and customise the config.json file
 
-Step 2: Config and Plugins
+**Step 2: Config and Plugins**
 
 Open your config.json file which should be in ~/.homebridge/config.json using your favourite text editor and add the following
 
@@ -67,17 +67,17 @@ Open your config.json file which should be in ~/.homebridge/config.json using yo
 
 }
 
-You will also need to install the homebride-http plugin. The HomeBridge software will make HTTP GET requests to the NODEMCU which will then turn the Solid State Relay on or off. The call looks like this:
+**You will also need to install the homebride-http plugin. The HomeBridge software will make HTTP GET requests to the NODEMCU which will then turn the Solid State Relay on or off. The call looks like this:**
 
 http://NODEMCU_IP:80/LED=ON
 
 http://NODEMCU_IP:80/LED=OFF
 
-To install the plugin type:
+**To install the plugin type:**
 
 sudo npm install homebridge-http or sudo npm install -g homebridge-http
 
-Step 3: Setup the Solid State Relay and the NODEMCU
+**Step 3: Setup the Solid State Relay and the NODEMCU**
 
  1. Upload the code to the NODEMCU 
  
@@ -94,7 +94,7 @@ This should now be ready for testing.
 
 Launch homebridge on the server! ( Just open up a terminal and type "homebridge" if it give an error try typing "sudo Homebridge"
 
-Step 5: Test!
+**Step 5: Test!**
 
 Now that everything is in place its time to test!
 
