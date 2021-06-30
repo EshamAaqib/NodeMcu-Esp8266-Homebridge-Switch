@@ -9,7 +9,13 @@ This is by no means a complete solution or ready for long term use but it demons
 
 # What's needed:
 
-NODEMCU ( ESP8266 Module ) , Raspberry Pi or some other server , Solid State Relay or Normal relay with control circuit , Bread board - optional , Project Box , Some Time , iOS device , Extension Lead to carve up ,
+- NODEMCU ( ESP8266 Module )
+- Raspberry Pi or some other server
+- Solid State Relay or Normal relay with control circuit
+- Bread board - optional
+- Project Box
+- iOS device
+- Extension Lead to carve up
 
 
 
